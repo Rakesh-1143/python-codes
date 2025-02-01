@@ -1,4 +1,3 @@
-# data base connection
 import cx_Oracle
 con=cx_Oracle.connect("system/tiger@127.0.0.1/orcl")
 print("type of kvr variable",type(con))
